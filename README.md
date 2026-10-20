@@ -19,6 +19,7 @@ Proyecto sencillo de monitoreo de red (mini SOC) con **5 estructuras de datos** 
 - Python 3.12+
 - FastAPI + Uvicorn (backend / API)
 - SQLite (base de datos, incluida en Python)
+- Render (despliegue en servidor público)
 
 ## ▶️ Cómo ejecutarlo
 ```bash
@@ -57,4 +58,8 @@ Se ejecutan desde la raíz del proyecto, por ejemplo: `python ejercicios/challen
 Cada estructura se desarrolló en su propia rama (`feature/pila`, `feature/cola`, `feature/heap`, `feature/trie`, `feature/grafo`, `feature/backend`, `feature/ejercicios`, `feature/documentacion`) y todas se mezclaron en `main`.
 
 ## 🌐 Despliegue
-El proyecto se ejecuta localmente (ver "Cómo ejecutarlo").
+Publicado en **Render** (plan gratuito) con el archivo `render.yaml`:
+- API: https://ed2-proyecto-ivan.onrender.com
+- Documentación interactiva (para probar los endpoints): https://ed2-proyecto-ivan.onrender.com/docs
+
+> En el plan gratuito el servidor se "duerme" si nadie lo usa; la primera visita puede tardar unos 50 segundos en cargar.

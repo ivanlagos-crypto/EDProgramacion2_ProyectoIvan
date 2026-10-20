@@ -22,7 +22,6 @@ Toda la información se guarda en una base de datos SQLite, así que no se pierd
 - Autenticación de usuarios y roles.
 - Monitoreo automático real de la red (los datos se registran manualmente o vienen de datos de prueba).
 - Interfaz gráfica propia: el sistema se usa desde la documentación interactiva de FastAPI (`/docs`).
-- Despliegue en un servidor público: el sistema se ejecuta en local.
 
 ---
 
@@ -34,6 +33,7 @@ Toda la información se guarda en una base de datos SQLite, así que no se pierd
 | Backend / API | FastAPI + Uvicorn | Permite exponer cada estructura como endpoints REST y genera documentación interactiva automática (`/docs`). |
 | Base de datos | SQLite | Viene incluida en Python, no requiere servidor y guarda los datos en un archivo. |
 | Control de versiones | Git + GitHub | Una rama por estructura, mezcladas en `main`. |
+| Despliegue | Render (plan gratuito) | Servidor público configurado con `render.yaml`. URL: https://ed2-proyecto-ivan.onrender.com/docs |
 
 ### Arquitectura
 
